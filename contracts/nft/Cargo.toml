@@ -1,0 +1,46 @@
+[package]
+name = "my_psp34_metadata"
+version = "0.2.4"
+previous-authors = ["Brushfam <m.konstantinovna@727.ventures>"]
+authors = [
+    "Konrad Wierzbik <konrad.wierzbik@gmail.com",
+    "Łukasz Łakomy <wookie.xp.07@gmail.com>",
+]
+edition = "2021"
+
+[dependencies]
+ink = { version = "5.0.0", default-features = false }
+
+scale = { package = "parity-scale-codec", version = "3.6.9", default-features = false, features = [
+    "derive",
+] }
+scale-info = { version = "2.11", default-features = false, features = [
+    "derive",
+], optional = true }
+
+# These dependencies
+pendzl = { path = "../..", default-features = false, features = [
+    "psp34_metadata_impl",
+    "ownable_impl",
+    "psp34_mintable_impl"
+] }
+
+[lib]
+name = "my_psp34_metadata"
+path = "lib.rs"
+
+
+[features]
+default = ["std"]
+std = [
+    "ink/std",
+    "scale/std",
+    "scale-info/std",
+    # These dependencies
+    "pendzl/std",
+]
+ink-as-dependency = []
+e2e-tests = []
+
+[profile.dev]
+codegen-units = 16
