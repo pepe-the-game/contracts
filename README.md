@@ -5,7 +5,7 @@ cargo contract build --manifest-path contracts/nft/Cargo.toml<br />
 cargo contract build --manifest-path contracts/pepeboost/Cargo.toml<br /><br />
 
 Links:<br />
-Play testnet: https://pepethegame.com/<br />
+Play on testnet: https://pepethegame.com/<br />
 Play off-chain: https://pepethegame.com/play?guest=true<br /><br />
 Mint NFT on testnet: https://mint.pepethegame.com/<br />
 Upgrade NFT on testnet: https://pepethegame.com/upgrades<br /><br />
