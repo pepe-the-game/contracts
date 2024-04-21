@@ -1,10 +1,9 @@
 [package]
-name = "my_psp34_metadata"
+name = "nft_pepethegame"
 version = "0.2.4"
 previous-authors = ["Brushfam <m.konstantinovna@727.ventures>"]
 authors = [
-    "Konrad Wierzbik <konrad.wierzbik@gmail.com",
-    "Łukasz Łakomy <wookie.xp.07@gmail.com>",
+    "Pepe dev",
 ]
 edition = "2021"
 
@@ -26,7 +25,7 @@ pendzl = { path = "../..", default-features = false, features = [
 ] }
 
 [lib]
-name = "my_psp34_metadata"
+name = "nft_pepethegame"
 path = "lib.rs"
 
 
