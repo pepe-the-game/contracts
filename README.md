@@ -13,4 +13,6 @@ Upgrade NFT on testnet: https://pepethegame.com/upgrades<br /><br />
 Flow to play on testnet:<br />
 Mint at least 1 nft on https://mint.pepethegame.com/<br />
 Play on testnet to gain $PEPEBOOST https://mint.pepethegame.com/ 1 enemy killed = 1 $PEPEBOOST<br />
-Upgrade one of your NFTS on testnet https://pepethegame.com/upgrades. 1 permanant NFT upgrade requires $500 PEPEBOOST
+Upgrade one of your NFTS on testnet https://pepethegame.com/upgrades. 1 permanant NFT upgrade requires $500 PEPEBOOST<br /><br />
+
+Licence: open source MIT License
