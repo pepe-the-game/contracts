@@ -46,6 +46,7 @@ pub mod psp22 {
             instance.metadata.name.set(&name);
             instance.metadata.symbol.set(&symbol);
             instance.metadata.decimals.set(&decimal);
+            instance.upgrade_cost = 500_000_000_000_000; //500
 
             instance
                 ._update(None, Some(&caller), &total_supply)
